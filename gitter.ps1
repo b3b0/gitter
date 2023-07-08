@@ -1,7 +1,7 @@
 $commitMessage = $args[0]
 $server = $args[1]
 $serverUser = $args[2]
-$destinationFolder = args[3]
+$destinationFolder = $args[3]
 git.exe add .
 git.exe commit -m $commitMessage
 git.exe push
